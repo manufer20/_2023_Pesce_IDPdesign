@@ -1,0 +1,21 @@
+# env_mac_metal.yml
+name: openmm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - openmm        # install the latest from conda-forge for Metal support
+  - numpy
+  - pandas
+  - mdtraj
+  - pymbar
+  - scipy
+  - scikit-learn
+  - pytables
+  - numba
+  - llvmlite
+  - numexpr
+  - fftw
+  - hdf5
+  - joblib
+  - pip
